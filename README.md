@@ -33,14 +33,6 @@
 - 💻 Je travaille sur des projets perso pour mettre en pratique ce que j'apprends
 - 📚 Toujours un onglet de doc ouvert quelque part
 
----
-
-## 📊 GitHub Stats
-
-![Younes's GitHub stats](https://github-readme-stats.vercel.app/api?username=TON_PSEUDO_ICI&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TON_PSEUDO_ICI&layout=compact&theme=tokyonight&hide_border=true)
-
 
 ---
 
