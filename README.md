@@ -12,7 +12,7 @@
 - 💡 Passionné par le **développement d'applications web** — du backend propre au frontend soigné
 - 🔨 J'ai toujours un projet en cours dans un coin de ma tête (ou de mon bureau)
 - 📈 En constante progression — chaque projet est une occasion de monter en compétences
-- 🤝 Ouvert aux opportunités de stage, alternance ou collaboration
+- 🤝 Ouvert aux opportunités de stage, alternance 
 - 🎯 **Prochaines étapes :** apprendre **TypeScript**, **React** et **Next.js** — parce que la curiosité ne s'arrête jamais
 
 ---
