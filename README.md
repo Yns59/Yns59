@@ -13,7 +13,7 @@
 - 🔨 J'ai toujours un projet en cours dans un coin de ma tête (ou de mon bureau)
 - 📈 En constante progression — chaque projet est une occasion de monter en compétences
 - 🤝 Ouvert aux opportunités de stage, alternance ou collaboration
-- - 🎯 **Prochaines étapes :** apprendre **TypeScript**, **React** et **Next.js** — parce que la curiosité ne s'arrête jamais
+- 🎯 **Prochaines étapes :** apprendre **TypeScript**, **React** et **Next.js** — parce que la curiosité ne s'arrête jamais
 
 ---
 
