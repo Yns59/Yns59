@@ -37,4 +37,11 @@
 
 ---
 
+ 
+## ⏱️ Mon temps de code (WakaTime)
+ 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+ 
+---
 *Profil en construction — comme moi.* 🚧
