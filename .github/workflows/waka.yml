@@ -16,4 +16,4 @@ jobs:
           SHOW_TIME: true
           SHOW_TOTAL: true
           LANG_COUNT: 8
-          IGNORED_LANGUAGES: HTML CSS
+          IGNORED_LANGUAGES: HTML CSS JSON Markdown YAML
