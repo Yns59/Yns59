@@ -1,8 +1,9 @@
 name: Waka Readme
 on:
   schedule:
-    - cron: "0 * * * *"   # toutes les heures, à l'heure pile
-  workflow_dispatch:        # permet de le lancer manuellement depuis l'onglet Actions
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
 jobs:
   update-readme:
     name: Update README with WakaTime stats
@@ -16,4 +17,17 @@ jobs:
           SHOW_TIME: true
           SHOW_TOTAL: true
           LANG_COUNT: 8
-          IGNORED_LANGUAGES: HTML CSS JSON Markdown YAML
+          IGNORED_LANGUAGES: |
+            HTML
+            CSS
+            JSON
+            Markdown
+            YAML
+            Bash
+            Text
+            Git Config
+            XML
+            Dockerfile
+            TOML
+            INI
+            Other
