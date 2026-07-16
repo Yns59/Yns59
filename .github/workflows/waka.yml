@@ -25,6 +25,7 @@ jobs:
             YAML
             Bash
             Text
+            .env
             Git Config
             XML
             Dockerfile
