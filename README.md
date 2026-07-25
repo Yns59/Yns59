@@ -43,14 +43,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 16 July 2026 - To: 23 July 2026
+From: 17 July 2026 - To: 24 July 2026
 
-Total Time: 12 hrs 2 mins
+Total Time: 9 hrs 2 mins
 
-PHP          4 hrs                 ████████▒░░░░░░░░░░░░░░░░   33.27 %
-JavaScript   3 hrs 43 mins         ███████▓░░░░░░░░░░░░░░░░░   30.91 %
-Log          43 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.06 %
-.env file    1 min                 ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
+JavaScript   3 hrs 33 mins         ██████████░░░░░░░░░░░░░░░   39.39 %
+PHP          2 hrs 12 mins         ██████░░░░░░░░░░░░░░░░░░░   24.51 %
+Log          26 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
+.env file    1 min                 ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 %
 ```
 
 <!--END_SECTION:waka-->
