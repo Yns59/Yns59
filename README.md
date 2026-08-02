@@ -43,16 +43,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 25 July 2026 - To: 01 August 2026
+From: 18 June 2026 - To: 01 August 2026
 
-Total Time: 3 hrs 1 min
+Total Time: 31 hrs 44 mins
 
-Docker           33 mins               ████▓░░░░░░░░░░░░░░░░░░░░   18.45 %
-.env file        9 mins                █▒░░░░░░░░░░░░░░░░░░░░░░░   05.44 %
-JavaScript       8 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 %
-PHP              7 mins                █░░░░░░░░░░░░░░░░░░░░░░░░   04.24 %
-SmartyConfig     1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
-Twig             0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+PHP              12 hrs 4 mins         █████████▒░░░░░░░░░░░░░░░   37.79 %
+JavaScript       5 hrs 48 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.16 %
+Log              46 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.44 %
+Docker           33 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.75 %
 ```
 
 <!--END_SECTION:waka-->
