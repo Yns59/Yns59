@@ -22,8 +22,6 @@ jobs:
             CSS
             JSON
             Markdown
-            YAML
-            Bash
             Text
             .env
             Git Config
