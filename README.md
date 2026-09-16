@@ -1,17 +1,23 @@
-Hey, moi c’est Younes 👋
-Étudiant en Bachelor Développement d’Applications (2ème année), passionné par la création d’applications web et mobiles. J’aime apprendre, construire, casser des trucs, et recommencer jusqu’à ce que ce soit propre. 💪
-Et quand je ne code pas… je plonge dans le DevOps, parce que comprendre l’infra et les pipelines, ça rend un développeur vraiment complet.
-“Le meilleur moyen d’apprendre, c’est de faire.”
+# Hey, moi c'est Younes 👋
+
+Étudiant en **Bachelor Développement d'Applications** (2ème année), passionné par la création d'applications web et mobiles.  
+J'aime apprendre, construire, casser des trucs, et recommencer jusqu'à ce que ce soit propre. 💪  
+Et quand je ne code pas… je plonge dans le **DevOps**, parce que comprendre l’infra, les conteneurs et les pipelines, ça rend un développeur vraiment complet.
+
+> *"Le meilleur moyen d'apprendre, c'est de faire."*
+
 ---
-🚀 Ce qui m’anime
-• 🎓 Étudiant en dev, toujours en train d’apprendre quelque chose de nouveau
-• 💡 Passionné par le développement d’applications web — du backend propre au frontend soigné
-• 🛠️ Intéressé par le DevOps : Docker, CI/CD, automatisation, bonnes pratiques d’infrastructure
-• 🔨 J’ai toujours un projet en cours dans un coin de ma tête (ou de mon bureau)
-• 📈 En constante progression — chaque projet est une occasion de monter en compétences
-• 🤝 Ouvert aux opportunités de stage, alternance
-• 🎯 Prochaines étapes : apprendre TypeScript, React et Next.js — parce que la curiosité ne s’arrête jamais
----
+
+## 🚀 Ce qui m'anime
+
+- 🎓 Étudiant en dev, toujours en train d'apprendre quelque chose de nouveau  
+- 💡 Passionné par le **développement d'applications web** — du backend propre au frontend soigné  
+- 🛠️ Intéressé par le **DevOps** : Docker, CI/CD, automatisation, bonnes pratiques d’infrastructure  
+- 🔨 J'ai toujours un projet en cours dans un coin de ma tête (ou de mon bureau)  
+- 📈 En constante progression — chaque projet est une occasion de monter en compétences  
+- 🤝 Ouvert aux opportunités de stage, alternance  
+- 🎯 **Prochaines étapes :** apprendre **TypeScript**, **React** et **Next.js** — parce que la curiosité ne s'arrête jamais
+
 
 ## ⌨️ Ma stack
 
