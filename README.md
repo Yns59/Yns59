@@ -45,16 +45,16 @@ Et quand je ne code pas… je plonge dans le **DevOps**, parce que comprendre l�
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 June 2026 - To: 15 September 2026
+From: 18 June 2026 - To: 16 September 2026
 
-Total Time: 47 hrs 43 mins
+Total Time: 50 hrs 10 mins
 
-YAML             14 hrs 24 mins        ███████▒░░░░░░░░░░░░░░░░░   29.81 %
-PHP              13 hrs 40 mins        ███████░░░░░░░░░░░░░░░░░░   28.28 %
-JavaScript       6 hrs 57 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.41 %
-Bash             2 hrs 20 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.83 %
-Docker           1 hr 5 mins           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.24 %
-Log              46 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 %
+YAML             14 hrs 52 mins        ███████▒░░░░░░░░░░░░░░░░░   29.31 %
+PHP              13 hrs 45 mins        ██████▓░░░░░░░░░░░░░░░░░░   27.09 %
+JavaScript       6 hrs 57 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.71 %
+Docker           2 hrs 35 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.11 %
+Bash             2 hrs 20 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 %
+Log              46 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.54 %
 ```
 
 <!--END_SECTION:waka-->
