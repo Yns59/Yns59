@@ -45,16 +45,17 @@ Et quand je ne code pas… je plonge dans le **DevOps**, parce que comprendre l�
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 June 2026 - To: 22 September 2026
+From: 18 June 2026 - To: 23 September 2026
 
-Total Time: 63 hrs 41 mins
+Total Time: 67 hrs 20 mins
 
-YAML                21 hrs 50 mins        ████████▒░░░░░░░░░░░░░░░░   33.95 %
-PHP                 14 hrs 1 min          █████▒░░░░░░░░░░░░░░░░░░░   21.79 %
-JavaScript          8 hrs 13 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.80 %
-Docker              3 hrs 54 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.08 %
-Bash                2 hrs 49 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 %
-Terraform           2 hrs 12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.42 %
+YAML                21 hrs 50 mins        ████████░░░░░░░░░░░░░░░░░   32.10 %
+PHP                 14 hrs 1 min          █████░░░░░░░░░░░░░░░░░░░░   20.60 %
+JavaScript          8 hrs 13 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.10 %
+Terraform           4 hrs 30 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.61 %
+Docker              3 hrs 54 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.75 %
+Bash                2 hrs 51 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.20 %
+HCL                 51 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.27 %
 ```
 
 <!--END_SECTION:waka-->
