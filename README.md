@@ -45,7 +45,7 @@ Et quand je ne code pasâ€¦ je plonge dans le **DevOps**, parce que comprendre lâ
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 June 2026 - To: 03 October 2026
+From: 18 June 2026 - To: 04 October 2026
 
 Total Time: 68 hrs 14 mins
 
