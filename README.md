@@ -144,7 +144,7 @@ du plus récent au plus ancien
 
 ## `contact`
 
-Je suis **à la recherche d'une alternance** en développement web / DevOps, sur Lille et ses environs. Passionné et proactif, je veux mettre mes compétences techniques (web, réseaux) au service de vos projets tout en renforçant mon expertise sur le terrain.
+Je suis **à la recherche d'une alternance** en développement web / DevOps . Passionné et proactif, je veux mettre mes compétences techniques (web, réseaux) au service de vos projets tout en renforçant mon expertise sur le terrain.
 
 Si tu as une opportunité, ou juste envie d'échanger :
 
