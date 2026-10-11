@@ -1,0 +1,56 @@
+# roadmap.yml : ma progression, source de vérité du pipeline de mon profil.
+#
+# Je modifie un pourcentage, je push, et la GitHub Action régénère
+# assets/pipeline.svg (l'image affichée sur mon profil).
+#
+#   progress : 0 à 100
+#   status   : (optionnel) force l'état d'un job : passed | running | next | pending
+#              sans status : >= seuil_acquis -> acquis, > 0 -> en cours, 0 -> à venir
+#   focus    : true sur l'étape sur laquelle je travaille en ce moment
+
+titre: "ROADMAP · DEV → DEVOPS"
+seuil_acquis: 80
+
+stages:
+  - label: FONDATIONS
+    jobs:
+      - { name: "HTML / CSS",  progress: 80 }
+      - { name: "JavaScript",  progress: 60 }
+      - { name: "PHP",         progress: 70 }
+      - { name: "Symfony",     progress: 50 }
+      - { name: "Python",      progress: 40 }
+      - { name: "SQL",         progress: 50 }
+      - { name: "Git",         progress: 60 }
+
+  - label: DEV MODERNE
+    focus: true
+    jobs:
+      - { name: "TypeScript",  progress: 10 }
+      - { name: "React",       progress: 0, status: next }
+      - { name: "Next.js",     progress: 0, status: next }
+
+  - label: CONTENEURS
+    jobs:
+      - { name: "Docker",       progress: 50 }
+      - { name: "Linux / Bash", progress: 40 }
+      - { name: "Homelab",      progress: 40 }
+      - { name: "CI/CD",        progress: 25 }
+
+  - label: INFRA & CLOUD
+    jobs:
+      - { name: "Terraform",   progress: 20 }
+      - { name: "Ansible",     progress: 0, status: next }
+      - { name: "Cloud",       progress: 0, status: next }
+
+  - label: ORCHESTRATION
+    jobs:
+      - { name: "Kubernetes",  progress: 10 }
+      - { name: "Monitoring",  progress: 0 }
+      - { name: "GitOps",      progress: 0 }
+
+  - label: EXCELLENCE
+    jobs:
+      - { name: "DevSecOps",     progress: 10 }
+      - { name: "Tests auto",    progress: 0 }
+      - { name: "Certification", progress: 0 }
+      - { name: "Open source",   progress: 0 }
