@@ -51,7 +51,8 @@ apprentissage:
   maintenant: TypeScript
   ensuite:    [React, Next.js]
 
-domaines:    [Sécurité des systèmes et infrastructures (Linux/Windows), automatisation DevOps (Terraform, CI/CD), administration de serveurs et virtualisation (Proxmox, Docker, Kubernetes), architecture réseau et homelab,]
+domaines:    [Sécurité des systèmes et infrastructures (Linux/Windows), automatisation DevOps (Terraform, CI/CD),
+              administration de serveurs et virtualisation (Proxmox, Docker, Kubernetes), architecture réseau et homelab,]
 langues:     [français (langue maternelle), anglais, arabe]
 hors_code:   [sport de combat, cinéma, voyages]
 ```
