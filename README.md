@@ -51,8 +51,7 @@ apprentissage:
   maintenant: TypeScript
   ensuite:    [React, Next.js]
 
-domaines:    [sécurité appliquée à l'IoT, objets connectés, domotique et IA,
-              administration systèmes Windows / Linux, gestion de projet]
+domaines:    [Sécurité des systèmes et infrastructures (Linux/Windows), automatisation DevOps (Terraform, CI/CD), administration de serveurs et virtualisation (Proxmox, Docker, Kubernetes), architecture réseau et homelab,]
 langues:     [français (langue maternelle), anglais, arabe]
 hors_code:   [sport de combat, cinéma, voyages]
 ```
