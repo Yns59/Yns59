@@ -20,7 +20,7 @@
 
 ## `whoami`
 
-Je m'appelle **Younes**, étudiant en **Bachelor Informatique à l'école Enigma** (2ème année, Lille), passionné par la création d'applications web et mobiles.
+Je m'appelle **Younes**, étudiant en **Bachelor Informatique à l'école Enigma** (2ème année, Lille), passionné par la création d'applications web et le devops.
 
 J'aime apprendre, construire, casser des trucs, et recommencer jusqu'à ce que ce soit propre. Mon moteur : comprendre **tout le chemin d'une application**, du code jusqu'au serveur qui la fait tourner. C'est pour ça qu'à côté de PHP et Symfony, j'ai monté mon propre **homelab** (serveurs, virtualisation, automatisation) pour m'entraîner en autodidacte sur le DevOps.
 
