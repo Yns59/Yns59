@@ -23,13 +23,13 @@ stages:
       - { name: "Git",         progress: 60 }
 
   - label: DEV MODERNE
-    focus: true
     jobs:
       - { name: "TypeScript",  progress: 10 }
       - { name: "React",       progress: 0, status: next }
       - { name: "Next.js",     progress: 0, status: next }
 
   - label: CONTENEURS
+    focus: true
     jobs:
       - { name: "Docker",       progress: 50 }
       - { name: "Linux / Bash", progress: 40 }
