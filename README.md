@@ -1,10 +1,4 @@
-<!--
-  A VERIFIER AVANT DE PUBLIER :
-  1. Ce depot doit s'appeler exactement comme ton pseudo (Yns59/Yns59) pour s'afficher sur ton profil.
-  2. Le lien LinkedIn (section contact) : verifie qu'il ouvre bien ton profil.
-  3. Pour mettre a jour la roadmap : modifie roadmap.yml et push. La GitHub Action regenere assets/pipeline.svg.
-  4. Ne touche pas aux balises waka (START_SECTION / END_SECTION) : WakaTime les met a jour tout seul.
--->
+
 
 <div align="center">
 
@@ -136,7 +130,7 @@ du plus récent au plus ancien
 5. **Comprendre les devs** : garder les mains dans le code pour construire des outils et des pipelines adaptés.
 
 <!--
-  PROJETS EN VEDETTE (decommente et complete quand tu as quelque chose a montrer) :
+
 
   ## `projets`
 
