@@ -15,7 +15,7 @@ seuil_acquis: 80
 stages:
   - label: "1 · FONDAMENTAUX DEV"
     jobs:
-      - { name: "Langages (PHP / Python / JS)", progress: 50 }
+      - { name: "PHP / Python / JS", progress: 50 }
       - { name: "Git & GitHub", progress: 60 }
       - { name: "SQL / bases de données", progress: 50 }
       - { name: "HTTP / API REST", progress: 20 }
