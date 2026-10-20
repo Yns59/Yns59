@@ -238,7 +238,11 @@ def build_pipeline() -> str:
     stages = cfg["stages"]
     n = len(stages)
 
-    W, PAD, GAPX = 900, 24, 14
+    # Une colonne par étape : garder une largeur lisible même avec 8 étapes.
+    # Le SVG peut être affiché à une taille réduite dans GitHub, tout en restant lisible
+    # lorsqu'il est ouvert seul.
+    PAD, GAPX, MIN_COLW = 24, 14, 142
+    W = max(900, 2 * PAD + n * MIN_COLW + GAPX * (n - 1))
     colw = (W - 2 * PAD - GAPX * (n - 1)) / n
     PH, GAPY, TOP, RAIL = 36, 6, 166, 148
     max_jobs = max(len(s["jobs"]) for s in stages)
@@ -312,9 +316,11 @@ def build_pipeline() -> str:
     for si, st in enumerate(stages):
         x, d = xs[si], info[si]
         color = COLOR[d["status"]]
+        stage_label = str(st["label"])
+        stage_font = min(10.5, max(7.5, 150 / max(len(stage_label), 1)))
         out.append(
-            f'<text x="{x:.1f}" y="114" font-size="10.5" font-weight="700" fill="{CREAM}">'
-            f'{si + 1:02d} · {escape(st["label"])}</text>'
+            f'<text x="{x:.1f}" y="114" font-size="{stage_font:.1f}" font-weight="700" fill="{CREAM}">'
+            f'{si + 1:02d} · {escape(stage_label)}</text>'
         )
         out.append(
             f'<text x="{x:.1f}" y="129" font-size="10" fill="{MUTED}">'
@@ -345,12 +351,17 @@ def build_pipeline() -> str:
                 if prog > 0
                 else ""
             )
+            # Éviter que les noms longs débordent sur le pourcentage dans les colonnes étroites.
+            name_text = str(name)
+            max_chars = max(7, int((colw - 66) / 6.2))
+            if len(name_text) > max_chars:
+                name_text = name_text[: max_chars - 1] + "…"
             out.append(
                 f'<g class="pill" style="animation-delay:{delay}s">'
                 f'<rect{cls} x="{x:.1f}" y="{y}" width="{colw:.1f}" height="{PH}" rx="8" fill="{PANEL}" {stroke}/>'
                 f"{icon(status, x + 13, y + 14)}"
                 f'<text x="{x + 26:.1f}" y="{y + 16}" font-size="11.5" '
-                f'fill="{MUTED if status == "pending" else CREAM}">{escape(name)}</text>'
+                f'fill="{MUTED if status == "pending" else CREAM}">{escape(name_text)}</text>'
                 f'<rect x="{x + 26:.1f}" y="{y + 24}" width="{bw:.1f}" height="4" rx="2" fill="{BORDER}"/>'
                 f"{bar}"
                 f'<text x="{x + colw - 8:.1f}" y="{y + 29}" font-size="9" fill="{MUTED}" text-anchor="end">{prog}%</text>'
