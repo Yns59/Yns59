@@ -1,56 +1,87 @@
 # roadmap.yml : ma progression, source de vérité du pipeline de mon profil.
 #
-# Je modifie un pourcentage, je push, et la GitHub Action régénère
-# assets/pipeline.svg (l'image affichée sur mon profil).
+# Modifier un pourcentage, push, et la GitHub Action régénère
+# assets/pipeline.svg.
 #
 #   progress : 0 à 100
-#   status   : (optionnel) force l'état d'un job : passed | running | next | pending
-#              sans status : >= seuil_acquis -> acquis, > 0 -> en cours, 0 -> à venir
-#   focus    : true sur l'étape sur laquelle je travaille en ce moment
+#   status   : (optionnel) passed | running | next | pending
+#   focus    : true sur l'étape prioritaire du moment
+#
+# Objectif : DEV → SYSTEMS → DEVOPS → PLATFORM ENGINEERING
 
-titre: "ROADMAP · DEV → DEVOPS"
+titre: "ROADMAP · DEV → DEVOPS & INFRA"
 seuil_acquis: 80
 
 stages:
-  - label: FONDATIONS
+  - label: BASES SYSTEME
     jobs:
-      - { name: "HTML / CSS",  progress: 80 }
-      - { name: "JavaScript",  progress: 60 }
-      - { name: "PHP",         progress: 70 }
-      - { name: "Symfony",     progress: 50 }
-      - { name: "Python",      progress: 40 }
-      - { name: "SQL",         progress: 50 }
-      - { name: "Git",         progress: 60 }
+      - { name: "Linux", progress: 40 }
+      - { name: "Shell / Bash", progress: 40 }
+      - { name: "Git", progress: 60 }
+      - { name: "Réseaux / TCP-IP", progress: 10 }
+      - { name: "Python / scripting", progress: 40 }
+      - { name: "SSH / permissions", progress: 10 }
 
-  - label: DEV MODERNE
+  - label: DEV & AUTOMATISATION
     jobs:
-      - { name: "TypeScript",  progress: 10 }
-      - { name: "React",       progress: 0, status: next }
-      - { name: "Next.js",     progress: 0, status: next }
+      - { name: "HTTP / API", progress: 20 }
+      - { name: "SQL / bases de données", progress: 50 }
+      - { name: "PHP / Symfony", progress: 50 }
+      - { name: "JavaScript / TypeScript", progress: 40 }
+      - { name: "Tests automatisés", progress: 0 }
+      - { name: "Gestion des dépendances", progress: 0 }
 
-  - label: CONTENEURS
+  - label: CONTENEURS & HOMELAB
     focus: true
     jobs:
-      - { name: "Docker",       progress: 50 }
-      - { name: "Linux / Bash", progress: 40 }
-      - { name: "Homelab",      progress: 40 }
-      - { name: "CI/CD",        progress: 25 }
+      - { name: "Docker", progress: 50 }
+      - { name: "Docker Compose", progress: 20 }
+      - { name: "Volumes / réseaux", progress: 10 }
+      - { name: "Reverse proxy / TLS", progress: 0 }
+      - { name: "Homelab", progress: 40 }
+      - { name: "Déploiement Linux", progress: 10 }
+
+  - label: CI/CD & AUTOMATISATION
+    jobs:
+      - { name: "GitHub Actions", progress: 25 }
+      - { name: "Pipelines CI/CD", progress: 25 }
+      - { name: "Ansible", progress: 0, status: next }
+      - { name: "Terraform", progress: 20 }
+      - { name: "Secrets / variables", progress: 0 }
+      - { name: "Déploiement automatisé", progress: 0 }
 
   - label: INFRA & CLOUD
     jobs:
-      - { name: "Terraform",   progress: 20 }
-      - { name: "Ansible",     progress: 0, status: next }
-      - { name: "Cloud",       progress: 0, status: next }
+      - { name: "DNS / DHCP / routage", progress: 0 }
+      - { name: "Firewall / sécurité réseau", progress: 0 }
+      - { name: "Cloud", progress: 0, status: next }
+      - { name: "Infrastructure as Code", progress: 20 }
+      - { name: "Stockage / sauvegardes", progress: 0 }
+      - { name: "IAM / gestion des accès", progress: 0 }
 
-  - label: ORCHESTRATION
+  - label: ORCHESTRATION & OBSERVABILITE
     jobs:
-      - { name: "Kubernetes",  progress: 10 }
-      - { name: "Monitoring",  progress: 0 }
-      - { name: "GitOps",      progress: 0 }
+      - { name: "Kubernetes", progress: 10 }
+      - { name: "Helm", progress: 0, status: next }
+      - { name: "Monitoring / métriques", progress: 0 }
+      - { name: "Logs / alerting", progress: 0 }
+      - { name: "Prometheus / Grafana", progress: 0 }
+      - { name: "GitOps", progress: 0 }
 
-  - label: EXCELLENCE
+  - label: SRE & DEVSECOPS
     jobs:
-      - { name: "DevSecOps",     progress: 10 }
-      - { name: "Tests auto",    progress: 0 }
+      - { name: "Hardening Linux", progress: 0 }
+      - { name: "Gestion des vulnérabilités", progress: 0 }
+      - { name: "Gestion des incidents", progress: 0 }
+      - { name: "Haute disponibilité", progress: 0 }
+      - { name: "Disaster recovery", progress: 0 }
+      - { name: "Documentation / runbooks", progress: 0 }
+
+  - label: PROJETS & VALIDATION
+    jobs:
+      - { name: "Infra reproductible", progress: 0 }
+      - { name: "Homelab documenté", progress: 0 }
+      - { name: "Projet CI/CD complet", progress: 0 }
+      - { name: "Projet Kubernetes", progress: 0 }
+      - { name: "Open source", progress: 0 }
       - { name: "Certification", progress: 0 }
-      - { name: "Open source",   progress: 0 }
