@@ -1,4 +1,4 @@
-# roadmap.yml : ma progression, source de vérité du pipeline de mon profil.
+# roadmap.yml : progression, source de vérité du pipeline du profil.
 #
 # Modifier un pourcentage, push, et la GitHub Action régénère
 # assets/pipeline.svg.
@@ -7,81 +7,55 @@
 #   status   : (optionnel) passed | running | next | pending
 #   focus    : true sur l'étape prioritaire du moment
 #
-# Objectif : DEV → SYSTEMS → DEVOPS → PLATFORM ENGINEERING
+# Vue générale : DEV → SYSTÈMES → CONTENEURS → CI/CD → CLOUD/K8S → OBSERVABILITÉ → PORTFOLIO
 
 titre: "ROADMAP · DEV → DEVOPS & INFRA"
 seuil_acquis: 80
 
 stages:
-  - label: BASES SYSTEME
+  - label: "1 · FONDAMENTAUX DEV"
     jobs:
-      - { name: "Linux", progress: 40 }
-      - { name: "Shell / Bash", progress: 40 }
-      - { name: "Git", progress: 60 }
-      - { name: "Réseaux / TCP-IP", progress: 10 }
-      - { name: "Python / scripting", progress: 40 }
-      - { name: "SSH / permissions", progress: 10 }
-
-  - label: DEV & AUTOMATISATION
-    jobs:
-      - { name: "HTTP / API", progress: 20 }
+      - { name: "Langages (PHP / Python / JS)", progress: 50 }
+      - { name: "Git & GitHub", progress: 60 }
       - { name: "SQL / bases de données", progress: 50 }
-      - { name: "PHP / Symfony", progress: 50 }
-      - { name: "JavaScript / TypeScript", progress: 40 }
-      - { name: "Tests automatisés", progress: 0 }
-      - { name: "Gestion des dépendances", progress: 0 }
+      - { name: "HTTP / API REST", progress: 20 }
 
-  - label: CONTENEURS & HOMELAB
+  - label: "2 · SYSTÈMES & RÉSEAUX"
+    jobs:
+      - { name: "Linux", progress: 50 }
+      - { name: "Réseaux (TCP/IP, DNS)", progress: 85 }
+      - { name: "SSH & permissions", progress: 80 }
+      - { name: "Scripting (Bash / Python)", progress: 30 }
+
+  - label: "3 · CONTENEURS & HOMELAB"
     focus: true
     jobs:
-      - { name: "Docker", progress: 50 }
-      - { name: "Docker Compose", progress: 20 }
-      - { name: "Volumes / réseaux", progress: 10 }
-      - { name: "Reverse proxy / TLS", progress: 0 }
-      - { name: "Homelab", progress: 40 }
-      - { name: "Déploiement Linux", progress: 10 }
+      - { name: "Docker & Compose", progress: 40 }
+      - { name: "Homelab (Proxmox, VM)", progress: 40 }
+      - { name: "Déploiement web (reverse proxy, HTTPS)", progress: 70 }
 
-  - label: CI/CD & AUTOMATISATION
+  - label: "4 · CI/CD & AUTOMATISATION"
     jobs:
-      - { name: "GitHub Actions", progress: 25 }
-      - { name: "Pipelines CI/CD", progress: 25 }
-      - { name: "Ansible", progress: 0, status: next }
-      - { name: "Terraform", progress: 20 }
-      - { name: "Secrets / variables", progress: 0 }
-      - { name: "Déploiement automatisé", progress: 0 }
+      - { name: "GitHub Actions / GitLab CI", progress: 25 }
+      - { name: "Pipeline test → build → deploy", progress: 25, status: next }
+      - { name: "IaC (Ansible / Terraform)", progress: 35, status: next }
 
-  - label: INFRA & CLOUD
+  - label: "5 · CLOUD & ORCHESTRATION"
     jobs:
-      - { name: "DNS / DHCP / routage", progress: 0 }
-      - { name: "Firewall / sécurité réseau", progress: 0 }
-      - { name: "Cloud", progress: 0, status: next }
-      - { name: "Infrastructure as Code", progress: 20 }
-      - { name: "Stockage / sauvegardes", progress: 0 }
-      - { name: "IAM / gestion des accès", progress: 0 }
-
-  - label: ORCHESTRATION & OBSERVABILITE
-    jobs:
-      - { name: "Kubernetes", progress: 10 }
-      - { name: "Helm", progress: 0, status: next }
-      - { name: "Monitoring / métriques", progress: 0 }
-      - { name: "Logs / alerting", progress: 0 }
-      - { name: "Prometheus / Grafana", progress: 0 }
+      - { name: "Cloud & infrastructure as code", progress: 10 }
+      - { name: "Kubernetes (k3s)", progress: 10 }
       - { name: "GitOps", progress: 0 }
 
-  - label: SRE & DEVSECOPS
+  - label: "6 · OBSERVABILITÉ & SÉCURITÉ"
     jobs:
-      - { name: "Hardening Linux", progress: 0 }
-      - { name: "Gestion des vulnérabilités", progress: 0 }
-      - { name: "Gestion des incidents", progress: 0 }
-      - { name: "Haute disponibilité", progress: 0 }
-      - { name: "Disaster recovery", progress: 0 }
-      - { name: "Documentation / runbooks", progress: 0 }
+      - { name: "Monitoring (Prometheus / Grafana)", progress: 0 }
+      - { name: "Logs & alertes", progress: 0 }
+      - { name: "Sauvegardes & reprise", progress: 0 }
+      - { name: "Hardening / DevSecOps", progress: 0 }
 
-  - label: PROJETS & VALIDATION
+  - label: "7 · PROJETS & PORTFOLIO"
     jobs:
-      - { name: "Infra reproductible", progress: 0 }
-      - { name: "Homelab documenté", progress: 0 }
+      - { name: "Infra reproductible (IaC de bout en bout)", progress: 0 }
       - { name: "Projet CI/CD complet", progress: 0 }
-      - { name: "Projet Kubernetes", progress: 0 }
-      - { name: "Open source", progress: 0 }
-      - { name: "Certification", progress: 0 }
+      - { name: "Homelab documenté (runbooks)", progress: 40 }
+      - { name: "Projet Kubernetes / GitOps", progress: 20 }
