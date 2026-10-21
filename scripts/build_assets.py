@@ -111,8 +111,8 @@ def build_banner() -> str:
     json_lines = [
         [("{", P)],
         [("  ", P), ('"stage"', K), (": ", P), ('"moderne"', S), (",", P)],
-        [("  ", P), ('"maintenant"', K), (": ", P), ('"TypeScript"', S), (",", P)],
-        [("  ", P), ('"ensuite"', K), (": [", P), ('"React"', S), (", ", P), ('"Next.js"', S), ("],", P)],
+        [("  ", P), ('"maintenant"', K), (": ", P), ('"terraform"', S), (",", P)],
+        [("  ", P), ('"ensuite"', K), (": [", P), ('"Ansible"', S), (", ", P), ('"Kubernetes"', S), ("],", P)],
         [("  ", P), ('"homelab"', K), (": ", P), ("true", AMBER), (",", P)],
         [("  ", P), ('"alternance"', K), (": ", P), ('"recherche active"', S)],
         [("}", P)],
