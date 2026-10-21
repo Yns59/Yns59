@@ -32,9 +32,9 @@ Je ne vise pas « un bon niveau ». Je vise **la fiabilité, la sécurité et la
 infrastructure_&_devops:
   virtualisation_&_os: [Proxmox VE, Linux (Debian/Ubuntu), LXC, Windows Server, Bash]
   conteneurs:          [Docker, Docker Compose, Portainer, Kubernetes (K3s)]
-  iac_&_config:        [Terraform, Ansible, Packer]
-  ci_cd:               [GitLab CI/CD, GitHub Actions]
-  reseau_&_securite:   [TCP/IP, DNS/DHCP, Routage (CCNA 1), Traefik, Cloudflare Tunnels / Zero Trust]
+  iac_&_config:        [Terraform, Ansible]
+  ci_cd:               [GitLab CI/CD,]
+  reseau_&_securite:   [TCP/IP, DNS/DHCP, Routage (CCNA 1), nginx]
 
 developpement:         # comprendre le code pour mieux le déployer
   backend:             [PHP, Symfony, Python, SQL]
