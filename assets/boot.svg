@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 368" width="900" height="368" role="img" aria-label="Younes Gallouch, DevOps, systèmes et réseaux, cloud. Bachelor 2 à l'IPSSI Lille, alternance recherchée en septembre 2027.">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.in{animation:in .35s ease-out backwards}
+@keyframes in{from{opacity:0;transform:translateY(5px)}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.pulse{animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.scan{animation:scan 6s linear 4s infinite}@keyframes scan{0%{transform:translateY(0);opacity:.35}100%{transform:translateY(324px);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.mv{display:none}}
+</style>
+<rect x="1" y="1" width="898" height="366" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M1 36H899" stroke="#30363d"/>
+<circle cx="22" cy="19" r="6" fill="#ff7b72"/><circle cx="42" cy="19" r="6" fill="#d29922"/><circle cx="62" cy="19" r="6" fill="#3fb950"/>
+<text x="450" y="23" fill="#8b949e" font-size="13" xml:space="preserve" text-anchor="middle">younes@homelab: ~</text>
+<text x="28" y="64" fill="#39c5cf" font-size="14" xml:space="preserve" >younes@homelab:~$ ./boot.sh</text><g class="in" style="animation-delay:0.40s"><text x="28" y="90" fill="#3fb950" font-size="14" xml:space="preserve" >[  OK  ]</text><text x="112" y="90" fill="#8b949e" font-size="14" xml:space="preserve" >Hyperviseur Proxmox VE</text></g><g class="in" style="animation-delay:0.75s"><text x="28" y="112" fill="#3fb950" font-size="14" xml:space="preserve" >[  OK  ]</text><text x="112" y="112" fill="#8b949e" font-size="14" xml:space="preserve" >Moteur de conteneurs Docker</text></g><g class="in" style="animation-delay:1.10s"><text x="28" y="134" fill="#3fb950" font-size="14" xml:space="preserve" >[  OK  ]</text><text x="112" y="134" fill="#8b949e" font-size="14" xml:space="preserve" >Réseau : TCP/IP, DNS, DHCP, SSH</text></g><g class="in" style="animation-delay:1.45s"><text x="28" y="156" fill="#3fb950" font-size="14" xml:space="preserve" >[  OK  ]</text><text x="112" y="156" fill="#8b949e" font-size="14" xml:space="preserve" >Pile web : PHP, Symfony, TypeScript</text></g><g class="in" style="animation-delay:1.80s"><text x="28" y="178" fill="#3fb950" font-size="14" xml:space="preserve" >[  OK  ]</text><text x="112" y="178" fill="#8b949e" font-size="14" xml:space="preserve" >Tunnel Cloudflare Zero Trust</text></g><g class="in" style="animation-delay:2.30s"><text x="450" y="248" fill="#e6edf3" font-size="54" xml:space="preserve" text-anchor="middle" font-weight="bold" letter-spacing="3">YOUNES GALLOUCH</text></g><g class="in" style="animation-delay:2.80s"><text x="450" y="282" fill="#39c5cf" font-size="20" xml:space="preserve" text-anchor="middle">DevOps  ·  Systèmes &amp; Réseaux  ·  Cloud</text></g><g class="in" style="animation-delay:3.30s"><text x="450" y="314" fill="#d29922" font-size="15" xml:space="preserve" text-anchor="middle">Bachelor 2 à l'IPSSI Lille  ·  alternance recherchée : septembre 2027</text></g><g class="in" style="animation-delay:3.80s"><text x="28" y="348" fill="#39c5cf" font-size="14" xml:space="preserve" >younes@homelab:~$</text><rect class="blink" x="182" y="336" width="9" height="15" fill="#e6edf3"/></g><rect class="mv scan" x="2" y="38" width="896" height="2" fill="#39c5cf" opacity="0"/>
+</svg>

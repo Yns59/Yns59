@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 316" width="900" height="316" role="img" aria-label="Statut : recherche une alternance à partir de septembre 2027 à Lille, rythme 3 semaines en entreprise et 1 semaine à l'école.">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.in{animation:in .35s ease-out backwards}
+@keyframes in{from{opacity:0;transform:translateY(5px)}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.pulse{animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.mv{display:none}}
+</style>
+<rect x="1" y="1" width="898" height="314" rx="12" fill="#0d1117" stroke="#30363d"/>
+<path d="M1 36H899" stroke="#30363d"/>
+<circle cx="22" cy="19" r="6" fill="#ff7b72"/><circle cx="42" cy="19" r="6" fill="#d29922"/><circle cx="62" cy="19" r="6" fill="#3fb950"/>
+<text x="450" y="23" fill="#8b949e" font-size="13" xml:space="preserve" text-anchor="middle">systemd</text>
+<text x="28" y="66" fill="#39c5cf" font-size="14" xml:space="preserve" >$ systemctl status alternance.service</text><circle class="pulse" cx="34" cy="95" r="6" fill="#d29922"/><text x="50" y="100" fill="#e6edf3" font-size="14" xml:space="preserve" >alternance.service - Alternance de Younes Gallouch</text><g class="in" style="animation-delay:0.40s"><text x="28" y="128" fill="#8b949e" font-size="14" xml:space="preserve" >     Loaded:</text><text x="150" y="128" fill="#e6edf3" font-size="14" xml:space="preserve" >loaded (/etc/younes/alternance.service; enabled)</text></g><g class="in" style="animation-delay:0.65s"><text x="28" y="152" fill="#8b949e" font-size="14" xml:space="preserve" >     Active:</text><text x="150" y="152" fill="#d29922" font-size="14" xml:space="preserve" >activating (recherche en cours)</text></g><g class="in" style="animation-delay:0.90s"><text x="28" y="176" fill="#8b949e" font-size="14" xml:space="preserve" >      Start:</text><text x="150" y="176" fill="#e6edf3" font-size="14" xml:space="preserve" >septembre 2027</text></g><g class="in" style="animation-delay:1.15s"><text x="28" y="200" fill="#8b949e" font-size="14" xml:space="preserve" >     Rythme:</text><text x="150" y="200" fill="#e6edf3" font-size="14" xml:space="preserve" >3 semaines entreprise / 1 semaine école</text></g><g class="in" style="animation-delay:1.40s"><text x="28" y="224" fill="#8b949e" font-size="14" xml:space="preserve" >      Roles:</text><text x="150" y="224" fill="#e6edf3" font-size="14" xml:space="preserve" >DevOps · Admin systèmes &amp; réseaux · Cloud · Support IT</text></g><g class="in" style="animation-delay:1.65s"><text x="28" y="248" fill="#8b949e" font-size="14" xml:space="preserve" >   Location:</text><text x="150" y="248" fill="#e6edf3" font-size="14" xml:space="preserve" >Lille, France</text></g><g class="in" style="animation-delay:2.20s"><text x="28" y="292" fill="#3fb950" font-size="14" xml:space="preserve" >Une équipe à rejoindre ? Contactez-moi.</text></g><rect class="blink" x="372" y="280" width="9" height="15" fill="#3fb950"/>
+</svg>
