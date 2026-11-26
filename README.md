@@ -1,165 +1,198 @@
- 
-
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Terminal animé. whoami : Younes, étudiant en Bachelor Informatique à Enigma, Lille. Focus : DevOps, Infrastructure & Cloud. Homelab : Proxmox, Docker, Terraform, K3s. Recherche une alternance." />
+<img src="./assets/boot.svg" width="100%" alt="Younes Gallouch : DevOps, systèmes et réseaux, cloud. Alternance recherchée en septembre 2027."/>
 
-<br/><br/>
-
-*« Le meilleur moyen d'apprendre, c'est de construire, casser et automatiser. »*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Younes_Gallouch-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/younes-gallouch-a1b3902bb/)
+[![E-mail](https://img.shields.io/badge/E--mail-gallouchy@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gallouchy@gmail.com)
 
 </div>
 
-<br/>
+## `$ whoami`
 
-## `whoami`
+Étudiant en **2e année de Bachelor à l'IPSSI Lille**, venu du développement web et passionné par le **DevOps**. J'ai monté un homelab Proxmox pour m'entraîner en conditions réelles.
 
-Je m'appelle **Younes**, étudiant en **Bachelor Informatique à l'école Enigma** (2ème année, Lille), passionné par l'**ingénierie DevOps, l'infrastructure système et l'automatisation**.
+Je recherche une **alternance à partir de septembre 2027** en DevOps, administration systèmes et réseaux, cloud ou support IT.
 
-Mon moteur : comprendre **comment une application vit en production**, du serveur physique jusqu'au déploiement continu. Issu d'une base en développement web (PHP/Symfony, TypeScript), j'ai rapidement basculé du côté de l'infrastructure. Pour pratiquer en conditions réelles, j'ai monté mon propre **homelab sous Proxmox** afin d'administrer mes serveurs, segmenter mon réseau, conteneuriser mes services et automatiser mes déploiements en **Infrastructure as Code (IaC)**.
+## `$ ./homelab --map`
 
-Je ne vise pas « un bon niveau ». Je vise **la fiabilité, la sécurité et la reproductibilité**, un jour de travail après l'autre.
+<img src="./assets/homelab.svg" width="100%" alt="Topologie du homelab sur Proxmox VE"/>
 
-> **1 % de mieux chaque jour = environ ×37 en un an.**
-> Je ne cherche pas la perfection du premier coup, je cherche l'amélioration continue (comme un bon pipeline).
+## `$ skills --status`
 
-<br/>
+<img src="./assets/skills.svg" width="100%" alt="Tableau de mes compétences"/>
 
-## `stack.yml`
+**Légende :** 🟢 pratiqué · 🟡 notions ou en apprentissage
 
-```yaml
-# mon environnement de travail & homelab
-infrastructure_&_devops:
-  virtualisation_&_os: [Proxmox VE, Linux (Debian/Ubuntu), LXC, Windows Server, Bash]
-  conteneurs:          [Docker, Docker Compose, Portainer, Kubernetes (K3s)]
-  iac_&_config:        [Terraform, Ansible]
-  ci_cd:               [GitLab CI/CD,]
-  reseau_&_securite:   [TCP/IP, DNS/DHCP, Routage (CCNA 1), nginx]
+<details open>
+<summary><b>🖥️ Systèmes et virtualisation</b></summary>
 
-developpement:         # comprendre le code pour mieux le déployer
-  backend:             [PHP, Symfony, Python, SQL]
-  frontend_&_typing:   [JavaScript, TypeScript, HTML/CSS]
+| Compétence | Niveau | Ce que je fais avec / contexte |
+|---|:---:|---|
+| Linux (Debian, Ubuntu) | 🟢 | Systèmes du quotidien et du homelab |
+| Windows, Windows Server | 🟢 | Installation, configuration et mises à jour de systèmes (stage 2022, Windows Server dans ma stack) |
+| Proxmox VE, LXC | 🟢 | Serveur personnel : machines virtuelles et conteneurs |
+| Bash | 🟢 | Scripts et administration |
+| Dépannage matériel et logiciel | 🟢 | Stage technique au Centre Lazare Garreau |
 
-apprentissage:
-  maintenant:          [Kubernetes (K3s), Ansible, TypeScript]
-  ensuite:             [Observabilité (Prometheus, Grafana, Loki), React / Next.js]
+</details>
 
-domaines:
-  - Administration systèmes & virtualisation (Homelab Proxmox)
-  - Automatisation & Infrastructure as Code (Terraform, Ansible, CI/CD)
-  - Sécurité des infrastructures, accès distants & architecture réseau
-  - Conteneurisation et orchestration d'applications
+<details open>
+<summary><b>🌐 Réseau et sécurité</b></summary>
 
-langues:               [français (langue maternelle), anglais, arabe]
-hors_prod:             [sport de combat, cinéma, voyages]
-```
+| Compétence | Niveau | Ce que je fais avec / contexte |
+|---|:---:|---|
+| Modèle OSI, TCP/IP, adressage et sous-réseaux | 🟢 | Fondamentaux réseau |
+| DNS, DHCP, HTTP/HTTPS, SSH | 🟢 | Services et protocoles courants |
+| Routage (CCNA 1), nginx | 🟢 | Routage et service web |
+| Cloudflare Tunnels / Zero Trust, reverse proxy | 🟢 | Exposition sécurisée des services du homelab |
+| Pare-feu | 🟡 | Notions |
 
-<br/>
+</details>
 
-## `pipeline`
+<details open>
+<summary><b>🐳 Conteneurs et DevOps</b></summary>
 
-Ma roadmap vers l'**ingénierie DevOps & Cloud**, présentée comme un pipeline CI/CD. Elle n'est pas figée : elle est **générée dynamiquement depuis [`roadmap.yml`](./roadmap.yml) par une GitHub Action**. Je modifie ma progression, je push, et le pipeline se reconstruit tout seul. (L'état d'esprit GitOps, appliqué à mon propre profil.)
+| Compétence | Niveau | Ce que je fais avec / contexte |
+|---|:---:|---|
+| Docker, Docker Compose | 🟢 | Application conteneurisée en architecture multi-images (stage Le 44) |
+| Portainer | 🟢 | Gestion de conteneurs |
+| Kubernetes (K3s) | 🟡 | Cluster léger sur le homelab, en autoformation |
+| Terraform | 🟡 | Expérimentations d'infrastructure as code |
+| Ansible | 🟡 | En apprentissage sur le homelab |
+| GitLab CI/CD | 🟡 | Contrôles automatisés de qualité, en autoformation |
 
-<div align="center">
+</details>
 
-<img src="./assets/pipeline.svg" width="100%" alt="Pipeline de ma roadmap en 6 étapes : fondations système & réseau, conteneurisation, CI/CD & dev moderne, Infrastructure as Code, orchestration Kubernetes, observabilité & excellence. L'avancement détaillé est dans roadmap.yml." />
+<details open>
+<summary><b>💻 Développement</b></summary>
 
-</div>
+| Compétence | Niveau | Ce que je fais avec / contexte |
+|---|:---:|---|
+| PHP, Symfony, API Platform | 🟢 | Back-end et API |
+| Python, SQL | 🟢 | Programmation et bases de données |
+| JavaScript, HTML/CSS | 🟢 | Interfaces web |
+| TypeScript | 🟡 | En apprentissage |
+| Back-office, comptes utilisateurs, réservation | 🟢 | Réalisés pour le restaurant Le 44 |
 
-<br/>
+</details>
 
-## `CHANGELOG.md`
+## `$ cat experiences.log`
 
-```text
-du plus récent au plus ancien
+### 🍽️ Stagiaire développeur web · Restaurant Le 44, Seclin · 2026 (3 mois)
+- Conteneurisation de l'application avec **Docker** (architecture multi-images)
+- Interface d'administration pour gérer la carte et la galerie photos
+- Comptes utilisateurs avec modification de profil sécurisée
+- Réservation de tables avec envoi des données au tableau de bord
 
-2026 · Conception & Administration d'un Homelab DevOps (Projet continu)
-  ├─ Virtualisation : déploiement et gestion d'un serveur sous Proxmox VE (VM & conteneurs LXC)
-  ├─ Réseau & Sécurité : exposition sécurisée via Cloudflare Tunnels / Zero Trust et reverse proxy
-  └─ Automatisation : expérimentations IaC (Terraform, Ansible) et cluster léger K3s
+### 🔧 Stagiaire technique · Centre Lazare Garreau · 2022 (1 mois)
+- Diagnostic et résolution de pannes matérielles et logicielles
+- Installation, configuration et mise à jour de systèmes et de logiciels
 
-2026 · Stage Développeur Web & Conteneurisation — Restaurant Le 44, Seclin (3 mois)
-  ├─ Docker : conteneurisation complète de l'application, architecture multi-conteneurs isolée
-  ├─ Backend & BDD : développement du système de réservation et back-office d'administration
-  └─ Sécurité : gestion des comptes utilisateurs et sécurisation des flux de données
+## `$ sudo apt upgrade younes` · Ma formation à l'IPSSI Lille
 
-2025 · Bachelor Informatique — École Supérieure des Sciences de l'Informatique (Enigma)
-  └─ 2025 → 2028 : administration systèmes Linux / Windows, architecture réseaux (Cisco CCNA),
-                   sécurité des SI, virtualisation, développement web et gestion de projet
+Mon Bachelor informatique se poursuit sur deux années à l'IPSSI. Voici le programme, expliqué simplement.
 
-2024 · Baccalauréat, mention Assez Bien
+<img src="./assets/ipssi.svg" width="100%" alt="Programme IPSSI de 2e et 3e année par domaine"/>
 
-2022 · Stage Technique Systèmes — Centre Lazare Garreau (1 mois)
-  └─ maintenance d'infrastructure matérielle et logicielle, déploiement et configuration d'OS
-```
+| Année | Quand | Format | Objectif |
+|---|---|---|---|
+| **Bachelor 2** (en cours) | 2026-2027 | Cours + stage de 2 à 6 mois | Consolider les bases techniques |
+| **Bachelor 3** (à venir) | 2027-2028 | Alternance : 3 semaines en entreprise, 1 à l'école | Me spécialiser et obtenir un titre Bac+3 |
 
-<br/>
+### 📗 2e année : construire les bases
 
-## `TODO.md`
+| Domaine | En clair | Au programme |
+|---|---|---|
+| 🖥️ Systèmes | Installer et gérer des serveurs | Windows Server 2022, Linux, scripts Bash |
+| 📦 Virtualisation | Faire tourner plusieurs serveurs sur peu de machines | Cluster Proxmox, systèmes répartis |
+| 🌐 Réseaux | Relier les machines entre elles | Architectures avancées Cisco |
+| ☁️ Cloud | Héberger des services en ligne | AWS |
+| 🔐 Sécurité | Trouver les failles et les éviter | Tests d'intrusion, OWASP, code sécurisé |
+| 💻 Développement | Créer des applications web | API, React, PHP 8, tests, bases de données |
+| 📊 Data et IA | Exploiter les données | Big data, OpenAI, Hugging Face |
 
-**Déjà accompli**
-- [x] Monter et administrer mon propre **serveur Homelab sous Proxmox**
-- [x] **Conteneuriser** une application complète en production sous **Docker** (architecture multi-images)
-- [x] Sécuriser les accès réseau de mon lab (Cloudflare Zero Trust, isolation des services)
-- [x] Mettre en place des contrôles de qualité et d'audit automatisés sous **GitLab CI**
+### 📘 3e année : option visée, Cybersécurité & Cloud Computing
+
+| Domaine | En clair | Au programme |
+|---|---|---|
+| 🖥️ Administration avancée | Gérer et automatiser les serveurs | Windows Server, PowerShell, cluster Linux, Ansible |
+| 📦 Virtualisation | Maîtriser les hyperviseurs | ESXi, Hyper-V, Proxmox |
+| 🌐 Réseaux | Concevoir et découper un réseau d'entreprise | Cisco, TCP/IP, segmentation |
+| ☁️ Cloud | Déployer chez les grands fournisseurs | Azure, AWS |
+| 📈 Exploitation | Surveiller et éviter les pannes | Supervision, haute disponibilité, gestion de parc |
+| 🔐 Sécurité | Intégrer la sécurité à chaque étape | Tests d'intrusion, DevSecOps |
+| 🤝 Projet | Travailler en équipe | Gestion de projet |
+
+🎓 **Titre visé :** Administrateur d'infrastructures sécurisées (niveau 6, Bac+3).
+
+> Ces modules sont ceux du programme de l'école. Ils ne comptent pas encore parmi mes acquis.
+
+## `$ ./carriere.sh` · Les métiers possibles
+
+<img src="./assets/metiers.svg" width="100%" alt="Chemins de carrière possibles"/>
+
+### 🚀 Après le Bac+3
+
+| Métier | Ce qu'on y fait |
+|---|---|
+| Administrateur systèmes et réseaux | Faire fonctionner les serveurs et le réseau d'une entreprise |
+| Administrateur d'infrastructures et cloud | Gérer des serveurs sur place et en ligne |
+| Administrateur cybersécurité | Protéger les systèmes et réagir aux incidents |
+| Technicien support IT | Dépanner et accompagner les utilisateurs |
+
+### 🔭 Ensuite, avec un Mastère et/ou de l'expérience
+
+| Métier | Ce qu'on y fait |
+|---|---|
+| **Ingénieur DevOps / SRE** (mon objectif) | Automatiser les déploiements et garder les services disponibles |
+| Architecte cloud | Concevoir l'hébergement en ligne d'une entreprise |
+| Pentester | Tester la sécurité en simulant des attaques autorisées |
+| Expert DevSecOps | Intégrer la sécurité dans la chaîne de livraison |
+| Responsable infrastructure | Piloter les systèmes, les réseaux et les choix techniques |
+
+📚 **Poursuite possible :** à l'IPSSI, un Mastère (Bac+5) en Cybersécurité & Cloud ou en Big Data, IA & Dév.
+
+## `$ git log --graph`
+
+<img src="./assets/parcours.svg" width="100%" alt="Mon parcours de 2022 à l'alternance"/>
+
+## `$ pipeline`
+
+<img src="./assets/pipeline.svg" width="100%" alt="Roadmap DevOps en six étapes"/>
+
+<details>
+<summary><b>📋 TODO.md : mes prochains objectifs</b></summary>
 
 **Court terme**
-- [ ] Décrocher une **alternance en DevOps / SysAdmin / Cloud** pour opérer sur des infras critiques
-- [ ] Automatiser le provisionnement complet de mon homelab avec **Terraform et Ansible**
-- [ ] Déployer et maintenir des services en haute disponibilité sur **Kubernetes (K3s)**
-- [ ] Consolider mes bases en **TypeScript / React** pour garder une double compétence Dev & Ops
+- [ ] Décrocher une alternance DevOps / SysAdmin / Cloud
+- [ ] Automatiser le provisionnement du homelab avec Terraform et Ansible
+- [ ] Déployer des services hautement disponibles sur K3s
+- [ ] Progresser en TypeScript et React
 
 **Moyen terme**
-- [ ] Déployer une stack complète d'**observabilité** (Prometheus, Grafana, Loki) avec alerting
-- [ ] Industrialiser des pipelines **CI/CD de bout en bout** (build, tests, scan de sécu, déploiement auto)
-- [ ] Créer des templates d'images systèmes immuables avec **Packer**
+- [ ] Observabilité : Prometheus, Grafana, Loki et alertes
+- [ ] Pipelines CI/CD complets : build, tests, scans de sécurité, déploiement
+- [ ] Images système immuables avec Packer
 
 **Long terme**
-- [ ] Maîtriser l'architecture **Cloud public** (AWS / GCP / Azure) et les pratiques **DevSecOps**
-- [ ] Obtenir une **certification reconnue** (CKA, Terraform Associate ou AWS)
-- [ ] Devenir un **Ingénieur DevOps / SRE complet**, capable de faire le pont entre le code et l'infra
+- [ ] Cloud public (AWS, GCP, Azure) et DevSecOps
+- [ ] Une certification : CKA, Terraform Associate ou AWS
+- [ ] Devenir ingénieur DevOps / SRE
 
-<br/>
+</details>
 
-## `principes`
+<details>
+<summary><b>⚙️ principes.conf</b></summary>
 
-1. **Automatiser ce qui se répète** : si je dois le faire deux fois à la main, j'écris un script ou un playbook.
-2. **Pratiquer en conditions réelles** : un homelab qui tourne vaut mille tutoriels théoriques.
-3. **Casser, analyser les logs, corriger** : chaque incident est une opportunité de rendre le système plus résilient.
-4. **Viser propre** : une infrastructure reproductible (IaC), documentée et sécurisée par défaut.
-5. **Comprendre les devs** : garder les mains dans le code pour construire des outils et des pipelines adaptés.
+1. **Automatiser :** une tâche faite deux fois à la main mérite un script.
+2. **Pratiquer :** un homelab qui tourne vaut mieux qu'un tutoriel théorique.
+3. **Casser, lire les logs, réparer :** chaque incident rend plus solide.
+4. **Rester propre :** une infrastructure reproductible, documentée et sécurisée.
+5. **Comprendre les développeurs :** rester proche du code.
 
-<!--
+</details>
 
+🗣️ Français (langue maternelle) · Anglais · Arabe  
+🥊 Sports de combat · 🎬 Cinéma · ✈️ Voyages
 
-  ## `projets`
-
-  | Projet | Description | Stack |
-  |:---|:---|:---|
-  | [Homelab-IaC](https://github.com/Yns59/nom-du-repo) | Architecture et provisionnement automatisé de mon serveur personnel | Proxmox · Terraform · Ansible · Docker |
-  | [Nom du projet Web](https://github.com/Yns59/nom-du-repo) | Application web conteneurisée avec pipeline CI/CD | Symfony · PostgreSQL · Docker · GitLab CI |
--->
-
-<br/>
-
-## `contact`
-
-Je suis **à la recherche d'une alternance en DevOps, Administration Systèmes & Réseaux ou Cloud** (avec un fort bagage web). Curieux, autonome et déjà habitué à administrer mes propres environnements, je souhaite mettre mon énergie au service de vos infrastructures tout en montant en compétence auprès de vos équipes.
-
-Si tu as une opportunité, ou juste envie d'échanger autour d'infra, de homelab ou de CI/CD :
-
-- **LinkedIn** : [Younes-Gallouch](https://www.linkedin.com/in/younes-gallouch-a1b3902bb/)
-- **Email** : [gallouchy@gmail.com](mailto:gallouchy@gmail.com)
-
-<br/>
-
-<div align="center">
-
-```text
-$ systemctl status younes.service
-● younes.service - DevOps & Infrastructure Engineer in training
-   Loaded: loaded (/etc/systemd/system/enigma-lille.service; enabled)
-   Active: active (running) · prêt pour le prochain déploiement en alternance ▌
-```
-
-</div>
+<img src="./assets/status.svg" width="100%" alt="Statut : en recherche d'alternance pour septembre 2027"/>
